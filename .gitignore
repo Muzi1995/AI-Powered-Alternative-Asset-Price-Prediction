@@ -1,0 +1,23 @@
+# 🚫 Ignore Virtual Environment & Dependencies
+venv/
+asset_env/
+
+# 🚫 Ignore Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# 🚫 Ignore System Files
+.DS_Store
+Thumbs.db
+
+# 🚫 Ignore Logs & Databases
+logs/
+*.log
+*.sqlite3
+*.db
+
+# 🚫 Ignore API Keys & Sensitive Files
+.env
+config.ini
+secrets.json
