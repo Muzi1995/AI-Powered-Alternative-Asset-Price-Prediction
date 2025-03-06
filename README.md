@@ -37,7 +37,7 @@ Requests (API calls)
 
 SQLite (Database)
 
-Yahoo Finance, CoinGecko, Etherscan APIs (Data Sources)
+Yahoo Finance, CoinGecko, Etherscan APIs, NEWS API (Data Sources)
 
 
 🖥️ Usage Instructions 
@@ -56,11 +56,19 @@ Yahoo Finance, CoinGecko, Etherscan APIs (Data Sources)
 /alternative_asset_ai_project:
  
 │── data_collection.py # Fetches financial & blockchain data 
+
 │── preprocess.py # Cleans & processes the data 
+
 │── feature_engineering.py # Adds market indicators & sentiment analysis 
+
 │── ml_model.py # Trains & evaluates the ML model 
+
 │── database.py # Stores processed data in SQLite 
+
 │── api.py # Provides API for predictions 
+
 │── app.py # Streamlit dashboard UI 
+
 │── requirements.txt # List of dependencies 
+
 │── README.md # Project documentation
