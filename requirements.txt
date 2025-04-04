@@ -1,0 +1,27 @@
+# Core Libraries
+pandas
+numpy
+scikit-learn
+matplotlib
+requests
+
+# Machine Learning
+xgboost
+
+# Natural Language Processing
+nltk
+
+# Flask API
+flask
+gunicorn
+python-dotenv
+
+# Streamlit Web App
+streamlit
+
+# For date/time parsing and timezone conversion (optional but helpful)
+python-dateutil
+pytz
+
+# If using yfinance or API-based financial data
+yfinance
