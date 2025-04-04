@@ -3,7 +3,7 @@ import requests
 import json
 
 # ✅ Defined Flask API URL
-API_URL = "http://127.0.0.1:5000/predict"
+API_URL = "https://ai-powered-alternative-asset-price.onrender.com"
 
 # 🌟 **Modern UI Setup**
 st.set_page_config(page_title="📊 AI Asset Predictor",
