@@ -25,3 +25,5 @@ pytz
 
 # If using yfinance or API-based financial data
 yfinance
+
+uvicorn
