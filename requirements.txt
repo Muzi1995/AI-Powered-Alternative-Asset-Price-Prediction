@@ -27,3 +27,5 @@ pytz
 yfinance
 
 uvicorn
+
+flask_cors
