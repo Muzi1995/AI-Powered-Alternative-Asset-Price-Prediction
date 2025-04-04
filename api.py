@@ -16,7 +16,7 @@ NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 ETHERSCAN_API_KEY = os.getenv("ETHERSCAN_API_KEY")
 
 # ✅ Defined model path (Ensure correct model name)
-MODEL_PATH = r"D:\Repository\python_learn\AI-Powered Alternative Asset Returns Predictor\asset_env\models\trained_model.pkl"
+MODEL_PATH = os.path.join("models", "trained_model.pkl")
 
 # ✅ Loaded the trained model
 if os.path.exists(MODEL_PATH):
