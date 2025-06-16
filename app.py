@@ -91,7 +91,8 @@ if st.button("🔮 Predict Future Price"):
 
     # ✅ Send request to Flask API
     try:
-        response = requests.post(API_URL, json=input_data)
+        # Append the predict endpoint to the base API URL
+        response = requests.post(f"{API_URL}/predict", json=input_data)
         if response.status_code == 200:
             prediction = response.json().get("predicted_price", "Error")
 
