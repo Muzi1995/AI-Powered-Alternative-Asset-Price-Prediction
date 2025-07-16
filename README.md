@@ -67,6 +67,9 @@ Yahoo Finance, CoinGecko, Etherscan APIs, NEWS API (Data Sources)
 
 │── api.py # Provides API for predictions 
 
+
+P.S: Due to Data Limitations the scope of this project is for demonstration purposes. 
+
 │── app.py # Streamlit dashboard UI 
 
 │── requirements.txt # List of dependencies 
